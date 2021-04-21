@@ -1,0 +1,90 @@
+body{
+    background-color: white ;
+    color: rgb(255, 255, 255);
+    size: 10rem;
+}
+.navbar{
+    background-color: #24292f !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: #24292f;
+    background-image: url(menu_icon.png) !important;
+}
+.navbar-brand{
+    color: white  !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+/* .me-2 {
+    margin-right: 6.5rem!important;
+}   */
+#nav_search{
+    width: 14rem !important;
+    background-color: #3f4449 !important;
+    border-color: #24292f !important;
+
+}
+.btn-outline-succes{
+    color: white !important;
+    border-color: #24292f !important; 
+}
+.btn{   
+    color: white !important;
+    border-color: #24292f !important; 
+}
+.btn:hover {
+    background-color: white;
+    color: #212529!important;
+}
+.section1{
+    background-color: #2a3138;
+    
+}
+#text1{
+    font-size: 1.6rem !important;
+    font-family: 'Lato', sans-serif  !important;
+}
+#heading1{
+    font-size: 4rem !important;
+}
+#form1{
+    background-color: white;
+    border-radius: 0.3rem;
+    color: black;
+}
+#btn1{
+    width: 100%;
+}
+#text2{
+    font-family: 'Lato', sans-serif  !important;
+    color: black  !important;
+    text-align: center;
+}
+#btn2{
+    border-color: #0275d8  !important;
+    color: #0275d8 !important;
+}
+#btn2:hover{
+    background-color: #0275d8 !important;
+    color: white  !important;
+}
+@media only screen and (max-width: 62rem) {
+    .col-sm-6{
+        width: 100% !important;
+    }
+    
+}
+@media only screen and (max-width: 35rem){
+    form{
+        display: none !important;
+        background-color: #2a3138 !important;
+    }
+    #form1{
+        display: none !important;
+    }
+}
